@@ -1,0 +1,16 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: black;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: wheat;
+  margin: 20px 0px;
+}
+

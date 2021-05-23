@@ -1,0 +1,78 @@
+.login {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 253, 254);
+    background-image: url('https://drscdn.500px.org/photo/168222715/m%3D900/v2?sig=5a71309631e36383fa7503d1a7c97c9f1e36a8fd9b2e9929545a5836556de1c3');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.login__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 411px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.login__container {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.login__container > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #00A8E1;
+  }
+
+.login__container > form > h5 {
+    margin-bottom: 5px;
+    text-align: initial;
+    font-size: 17px;
+}
+
+.login__container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+  }
+
+.login__container > p {
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.login__signInButton {
+    background-image: linear-gradient(to top right, #00A8E1, white);
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: 3px solid #00f8ec;
+  }
+
+  .login__registerButton {
+    border-radius: 2px;
+    background: #ff6549;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border: 2px solid darkgray;
+  }
+  
